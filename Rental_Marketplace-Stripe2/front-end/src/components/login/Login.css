@@ -1,0 +1,86 @@
+div {
+  margin: 0;
+}
+
+.login-container {
+  font-family: "Arial", sans-serif;
+  background-color: #1f41a9;
+  background-image: url(../../../src/assets/BG.svg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-container .login {
+  background-color: #f4f4f4;
+  border-radius: 1em;
+  padding: 6em 6em;
+  width: 30em;
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.login-container .form {
+  margin-top: 1em;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 0.6em;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.7em;
+  border: 0.1em solid #ccc;
+  border-radius: 0.2em;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.8em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2em 0em;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container .search-input:focus {
+  border: 2px solid #4caf50;
+}
+
+.password-btn {
+  width: 6em;
+  display: inline-block;
+}
+
+.error-message {
+  color: #f0975d;
+}
+
+.resend-email {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.resend-email:hover {
+  text-decoration: none;
+}

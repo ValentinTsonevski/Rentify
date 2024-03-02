@@ -1,0 +1,42 @@
+.category-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-item {
+    text-align: center;
+    width: 200px; 
+    margin: 10px;
+    list-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-item:hover {
+    transform: scale(1.1);
+}
+
+.category-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-icon svg {
+    background-color: rgb(219, 231, 249);
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px; 
+}
+
+.category-name {
+    font-size: 16px;
+    color: #333;
+}

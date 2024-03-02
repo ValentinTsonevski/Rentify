@@ -1,0 +1,74 @@
+.items-list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items-list-item {
+    position: relative;
+    width: 250px; 
+    padding: 20px; 
+    margin: 15px; 
+    list-style: none;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid rgb(219, 231, 249);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.items-list-item:hover {
+    transform: scale(1.1);
+}
+
+.items-list-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.items-list-item h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.items-list-item h5 {
+    font-size: 16px; 
+    color: #888;
+    margin-top: 10px;
+}
+
+.items-list-item p {
+    font-size: 16px; 
+    color: #888;
+    margin-top: 10px; 
+}
+
+.items-list-item .like-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #888;
+}
+
+.items-list-item .like-button:focus {
+    outline: none;
+}
+
+.items-list-item .like-button.clicked {
+    color: rgb(128, 22, 22);
+}
+
+.favourite-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+  }
+  
+  .App{
+      height: 100vh;
+  }

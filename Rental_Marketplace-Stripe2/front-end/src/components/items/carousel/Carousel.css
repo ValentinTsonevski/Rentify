@@ -1,0 +1,58 @@
+/* Carousel.css */
+
+.carousel {
+    position: relative;
+    width: 60vw;
+    /* Set width to 60% of the viewport width */
+    margin: 15px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel .arrow-button {
+    position: absolute;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carousel .arrow-icon {
+    font-size: 36px;
+    color: #888;
+}
+
+.carousel .arrow-button:hover .arrow-icon {
+    color: #0056b3;
+}
+
+.carousel .prev {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.carousel .next {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Move arrows outside the picture */
+.carousel .prev,
+.carousel .next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .prev {
+    left: 0;
+}
+
+.carousel .next {
+    right: 0;
+}

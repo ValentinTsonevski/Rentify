@@ -1,0 +1,25 @@
+div {
+    margin: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.home {
+    height: 100vh;
+}

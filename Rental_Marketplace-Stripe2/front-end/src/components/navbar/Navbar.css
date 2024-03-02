@@ -1,0 +1,36 @@
+.navbar {
+    padding: 30px 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 100px; 
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    color: rgb(219, 231, 249);
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: rgb(29, 54, 91);
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

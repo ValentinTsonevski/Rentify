@@ -1,0 +1,10 @@
+.favourite-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
+
+.App{
+    height: 100vh;
+}

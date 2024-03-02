@@ -1,0 +1,187 @@
+.createItem-container {
+    font-family: 'Arial', sans-serif;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.createItem-container h1{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.info{
+    background-color: #ffffff;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h3{
+    margin: 1em 0em;
+    color: #007bff;
+}
+
+.title-field {
+    background-color: #f2f4f5;
+    width: 42em;
+    font-size: 1em;
+}
+
+.selected-category {
+    border: 1px solid gray;
+    width: 20em;
+    height: 3em;
+    background-color: #f2f4f5;
+    display: flex;
+    align-items: center;
+    padding-left: 0.4em;
+}
+
+
+  .modal-button {
+    background-color: #007bff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 42em;
+  }
+
+  .modal-button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+
+  .cost {
+    margin: 2em;
+  }
+
+  .cost h3 {
+    margin-bottom: 1em;
+    color: #007bff;
+  }
+
+  .price-field {
+    width: 20em;
+    height: 3em;
+    background-color: #f2f4f5;
+    font-size: 1em;
+  }
+
+
+  .pictures {
+    margin: 2em;
+  }
+
+  .pictures h3 {
+    margin-bottom: 1em;
+    color: #007bff;
+  }
+  
+  .picture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 20px;
+  }
+
+  .picture-box {
+    width: 16em;
+    height: 10em;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  .picture-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .remove-picture-btn {
+    margin: 0;
+    border: none;
+    display: flex;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 7em;
+  }
+  
+  
+  .remove-picture-btn:hover{
+    cursor: pointer;
+  }
+  
+  .picture-box:hover {
+    cursor: pointer;
+  }
+
+  .pictures p {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.6em;
+  }
+
+
+  .description {
+    margin: 2em;
+  }
+
+  .description h3 {
+    margin-bottom: 1em;
+    color: #007bff;
+  }
+
+  .description-field {
+   background-color:  #f2f4f5;
+  }
+
+  .location {
+    margin: 2em;
+  }
+
+  .location h3 {
+    margin-bottom: 1em;
+    color: #007bff;
+  }
+
+  .location-field {
+    width: 20em;
+    height: 3em;
+    background-color: #f2f4f5;
+    font-size: 1em;
+    margin: 0.5em;
+  }
+
+  .fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-btn {
+    width: 10em;
+    margin-left: 2em;
+    background-color: #007bff;
+    padding: 1em;
+    color: #ffffff;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 4px;
+  }
+
+
+  .add-btn:hover {
+    cursor: pointer;
+    background-color: #0056b3;
+  }
+
+  .error{
+    color: #f0985f;
+    margin-top: 0.4em;
+    font-weight: bold;
+  }
+  
+  .fields-container .error{
+   margin-left: 0.6em;
+  }

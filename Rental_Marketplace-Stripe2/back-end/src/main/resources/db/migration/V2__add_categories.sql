@@ -1,0 +1,10 @@
+insert into item_category (name, description) values('Real Estate','Houses, apartments, vacation rentals, and unique accommodations');
+insert into item_category (name, description) values('Vehicles','Cars, motorcycles, bicycles, and specialty vehicles');
+insert into item_category (name, description) values('Electronics and Gadgets', 'Smartphones, laptops, cameras, drones, and other electronic devices');
+insert into item_category (name, description) values('Outdoor and Adventure', 'Camping gear, bicycles, hiking equipment, and sports gear');
+insert into item_category (name, description) values('Events and Parties', 'Party supplies, event furniture, sound systems, and decorations');
+insert into item_category (name, description) values('Fashion and Accessories', 'Clothing, handbags, jewelry, and fashion accessories');
+insert into item_category (name, description) values('Fitness and Sports Gear', 'Exercise equipment, sports gear, and fitness accessories');
+insert into item_category (name, description) values('Arts and Entertainment', 'Musical instruments, art supplies, and entertainment systems');
+insert into item_category (name, description) values('Books and Education', 'Textbooks, educational games, and learning resources');
+insert into item_category (name, description) values('Other', 'Other');

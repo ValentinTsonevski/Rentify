@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  margin-right: 15px;
+  color: #757575;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #333333;
+}
+
+.search-input:focus {
+  border: 2px solid #4caf50;
+}
+
+
+
